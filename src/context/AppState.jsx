@@ -5,10 +5,7 @@ import { ToastContainer, toast, Bounce } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const AppState = (props) => {
-  // const url = "https://ecommerce-backend-obwl.onrender.com";
-
-  const url = "https://mern-e-commerce-api-youtube.onrender.com/api";
-
+  const url = "https://ecommerce-backend-obwl.onrender.com/api";
 
   const [products, setProducts] = useState([]);
   const [token, setToken] = useState([]);
